@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardBackgroundColor="@color/orangecolor"
+    app:cardElevation="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/orangecolor"
+        >
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textColor="@color/colorwhite"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id"
+            android:text="User address"
+            android:textAlignment="center"
+            android:textColor="@color/colorwhite"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text1"
+            android:textSize="14dp"
+            android:textColor="@color/colorwhite"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text2"
+            android:textColor="@color/colorwhite"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@+id/salary"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
